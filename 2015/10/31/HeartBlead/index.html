@@ -19,7 +19,7 @@ Configure EnvironmentDownload Apache And OpensslDownload Ap">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Welcome to HeartBlead!This is my first paper.I will introduce how to install Apache  with SSL on Linux and judge the heartblead with python.
 Configure EnvironmentDownload Apache And OpensslDownload Ap">
-<meta property="og:updated_time" content="2015-10-31T02:58:28.226Z">
+<meta property="og:updated_time" content="2015-10-31T03:00:50.837Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HeartBlead">
 <meta name="twitter:description" content="Welcome to HeartBlead!This is my first paper.I will introduce how to install Apache  with SSL on Linux and judge the heartblead with python.
@@ -105,7 +105,8 @@ Configure EnvironmentDownload Apache And OpensslDownload Ap">
 		
 		<p>Welcome to <a href="http://baike.baidu.com/link?url=Tp9FWiVWSjrJ2bfHsty98MBa-FrG90eaL9Y3woUGN8MzVL064Bivi7bEeL2mKPeWeQ5rZUvY3fggbmXborIH3q" target="_blank" rel="external">HeartBlead</a>!This is my first paper.I will introduce how to install Apache  with SSL on Linux and judge the heartblead with python.</p>
 <h2 id="Configure_Environment">Configure Environment</h2><h3 id="Download_Apache_And_Openssl">Download Apache And Openssl</h3><p>Download Apache from <a href="http://httpd.apache.org/" target="_blank" rel="external">Apache</a> and Openssl from <a href="http://www.openssl.org/source/old/1.0.1/" target="_blank" rel="external">Openssl</a> with 1.0.1f(this has heartblead).</p>
-<h3 id="Install_Openssl_and_Apache">Install Openssl and Apache</h3><h4 id="First_Openssl">First Openssl</h4><p>If your computer has installed openssl ,you just don’t need care that.</p>
+<h3 id="Install_Openssl_and_Apache">Install Openssl and Apache</h3><p><br></p>
+<h4 id="First_Openssl">First Openssl</h4><p>If your computer has installed openssl ,you just don’t need care that.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf openssl-<span class="number">1.0</span>.<span class="number">1</span>f.tar.gz</span><br><span class="line"><span class="built_in">cd</span> openssl-<span class="number">1.0</span>.<span class="number">1</span>f</span><br></pre></td></tr></table></figure>
 <p>This openssl will be installed in “/usr/local/openssl”<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./config --prefix=/usr/<span class="built_in">local</span>/openssl</span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure></p>
 <h4 id="Then_Apache">Then Apache</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf httpd-<span class="number">2.2</span>.<span class="number">31</span>.tar.gz </span><br><span class="line"><span class="built_in">cd</span> 	httpd-<span class="number">2.2</span>.<span class="number">31</span></span><br></pre></td></tr></table></figure>
